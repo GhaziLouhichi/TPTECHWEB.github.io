@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>categories</title>
+
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid bg-light" id="p">
+        <div class="row">
+            <div class="co-12">
+                <form class="form-inline"  id="addform" action="http://127.0.0.1:8000/BIBLIOTHEQUE/LIVRE" method="POST">
+                    <div class="row">
+                        <div class="col-12 text-center mt-3">
+                           <h1>catégorie</h1> 
+                        </div>
+                    </div>
+                    <div class="form-group row mt-3">
+                        <label class ="col-sm-2 col-form-label col-form-label-lg" for="nom">ID</label>
+                       <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-lg"  required id="nom" name="nom"  placeholder="saisir ID">
+                       </div>
+                    </div>
+                    <div class="form-group row mt-3">
+                        <label class ="col-sm-2 col-form-label col-form-label-lg" for="nom">Titre</label>
+                       <div class="col-sm-10">
+                            <input type="text" class="form-control form-control-lg"  required id="nom" name="nom"  placeholder="saisir Titre">
+                       </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                        <div class="col text-center">
+                            <button class=" btn btn-primary" type="submit">Supprimer</button>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+        <div class="row" >
+            <a href="C:\Users\ASUS\Desktop\Examentp\ExamenTPtechprog\GhaziPart2\index.html">Passer a la recherche</a>
+        </div>
+        <div class="row" >
+            <a href="C:\Users\ASUS\Desktop\Examentp\ExamenTPtechprog\GhaziPart2\articles.html">Passer aux articles</a>
+        </div>
+
+    </div>
+    <script src="C:\Users\ASUS\Desktop\GhaziEX5\js\add.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "name": "ACTIVITY 5",
+  "short_name": "ACT5",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2355F2",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+        "src": "./assets/icon/apple-touch-icon-180x180.png",
+        "type": "image/png", "sizes": "180x180"
+    },
+    {
+        "src": "./assets/icon/favicon-16x16.png",
+        "type": "image/png", "sizes": "16x16"
+      },
+      {
+        "src": "./assets/icon/favicon-32x32.png",
+        "type": "image/png", "sizes": "32x32"
+      },
+      {
+        "src": "./assets/icon/pwa-192x192.png",
+        "type": "image/png", "sizes": "192x192"
+      },
+      {
+        "src": "./assets/icon/pwa-512x512.png",
+        "type": "image/png", "sizes": "512x512"
+      },
+      {
+        "src": "./assets/icon/tile70x70.png",
+        "type": "image/png", "sizes": "70x70"
+      },
+      {
+        "src": "./assets/icon/tile150x150.png",
+        "type": "image/png", "sizes": "150x150"
+      },
+      {
+        "src": "./assets/icon/tile310x150.png",
+        "type": "image/png", "sizes": "310x150"
+      },    {
+        "src": "./assets/icon/tile310x310.png",
+        "type": "image/png", "sizes": "310x310"
+      }       
+  ]
+}
